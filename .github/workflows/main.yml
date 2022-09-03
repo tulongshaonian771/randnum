@@ -31,7 +31,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: shaonian771/dckr_pat_rLv7H5WQgd79MfNqWyTM9E1M_zI
+        tags: shaonian771/productb771:v1.0
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
